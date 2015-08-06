@@ -1,0 +1,26 @@
+{
+  "name": "jstransformer-jst",
+  "version": "0.0.1",
+  "description": "jst support for JSTransformers",
+  "keywords": [
+    "jst",
+    "jstransformer"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "test-jstransformer": "^1.0.0"
+  },
+  "scripts": {
+    "coverage": "test-jstransformer coverage",
+    "test": "test-jstransformer"
+  },
+  "repository": "jstransformers/jstransformer-jst",
+  "author": "JSTransformers Team (https://github.com/orgs/jstransformers/people)",
+  "license": "MIT",
+  "dependencies": {
+    "extend-shallow": "^2.0.1",
+    "jst": "^0.0.13"
+  }
+}
