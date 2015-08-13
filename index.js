@@ -1,16 +1,13 @@
 'use strict';
 
 var jst = require('jst');
-var extend = require('extend-shallow');
 
 exports.name = 'jst';
 exports.inputFormats = ['jst', 'html', 'text'];
 exports.outputFormat = 'html';
 
-exports.compile = function (str, opts, locals) {
-  opts = extend({}, opts, locals);
+exports.compile = function (str, opts) {
   jst.configure(opts);
-
   return jst.compile(str);
 };
 
