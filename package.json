@@ -10,16 +10,27 @@
     "index.js"
   ],
   "devDependencies": {
-    "test-jstransformer": "^1.0.0"
+    "test-jstransformer": "^1.0.0",
+    "xo": "^0.17.1"
   },
   "scripts": {
     "coverage": "test-jstransformer coverage",
-    "test": "test-jstransformer"
+    "test": "test-jstransformer",
+    "posttest": "xo --space --no-semicolon index.js"
   },
-  "repository": "jstransformers/jstransformer-jst",
-  "author": "JSTransformers Team (https://github.com/orgs/jstransformers/people)",
-  "license": "MIT",
   "dependencies": {
     "jst": "^0.0.13"
-  }
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jstransformers/jstransformer-jst.git"
+  },
+  "author": {
+    "name": "JSTransformers Team",
+    "url": "http://github.com/orgs/jstransformers/people"
+  },
+  "license": "MIT"
 }

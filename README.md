@@ -1,18 +1,19 @@
-# jstransformer-jst [![The MIT License][license-img]][license-url]
+# jstransformer-jst
 
-[jst](https://www.npmjs.com/package/jst) support for [JSTransformers][jstransformers-url]
+[jst](https://www.npmjs.com/package/jst) support for [JSTransformers](http://github.com/jstransformers)
 
-[![travis build status][travis-img]][travis-url] [![coverage status][coveralls-img]][coveralls-url] [![dependency status][david-img]][david-url] [![npmjs.com][npmjs-img]][npmjs-url]
+[![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-jst/master.svg)](https://travis-ci.org/jstransformers/jstransformer-jst)
+[![Coverage Status](https://img.shields.io/codecov/c/github/jstransformers/jstransformer-jst/master.svg)](https://codecov.io/gh/jstransformers/jstransformer-jst)
+[![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-jst/master.svg)](http://david-dm.org/jstransformers/jstransformer-jst)
+[![NPM version](https://img.shields.io/npm/v/jstransformer-jst.svg)](https://www.npmjs.org/package/jstransformer-jst)
 
+## Installation
 
-## Install
 ```
 npm install jstransformer-jst --save
 ```
 
-
-## Usage
-> For more use-cases see the **tests** in [test folder](./test) or see the [JSTransformer API](http://github.com/jstransformers/jstransformer#api) for more details.
+## API
 
 ```js
 var jst = require('jstransformer')(require('jstransformer-jst'));
@@ -23,29 +24,3 @@ render({name: 'world'}) //=> 'Hello world'
 jst.render('Hello {{ name }}', {name: 'world'}).body
 //=> 'Hello world'
 ```
-
-
-## Contributing
-Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/jstransformers/jstransformer-jst/issues/new).
-
-
-## License
-[The MIT License][license-url]
-
-
-[npmjs-url]: https://www.npmjs.com/package/jstransformer-jst
-[npmjs-img]: https://img.shields.io/npm/v/jstransformer-jst.svg
-
-[license-url]: ./LICENSE
-[license-img]: https://img.shields.io/badge/license-MIT-blue.svg
-
-[travis-url]: https://travis-ci.org/jstransformers/jstransformer-jst
-[travis-img]: https://img.shields.io/travis/jstransformers/jstransformer-jst.svg
-
-[coveralls-url]: https://coveralls.io/r/jstransformers/jstransformer-jst
-[coveralls-img]: https://img.shields.io/coveralls/jstransformers/jstransformer-jst.svg
-
-[david-url]: https://david-dm.org/jstransformers/jstransformer-jst
-[david-img]: https://img.shields.io/david/jstransformers/jstransformer-jst.svg
-
-[jstransformers-url]: http://github.com/jstransformers
