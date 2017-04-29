@@ -1,5 +1,7 @@
 # jstransformer-jst
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-jst.svg)](https://greenkeeper.io/)
+
 [jst](https://www.npmjs.com/package/jst) support for [JSTransformers](http://github.com/jstransformers)
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-jst/master.svg)](https://travis-ci.org/jstransformers/jstransformer-jst)
