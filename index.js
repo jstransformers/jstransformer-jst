@@ -1,6 +1,6 @@
 'use strict'
 
-var jst = require('jst')
+const jst = require('jst')
 
 exports.name = 'jst'
 exports.inputFormats = ['jst', 'html', 'text']
