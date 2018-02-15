@@ -17,7 +17,7 @@ npm install jstransformer-jst --save
 ## API
 
 ```js
-var jst = require('jstransformer')(require('jstransformer-jst'));
+var jst = require('jstransformer')(require('jstransformer-jst'))
 
 var render = jst.compile('Hello {{ name }}').fn;
 render({name: 'world'}) //=> 'Hello world'
@@ -25,3 +25,7 @@ render({name: 'world'}) //=> 'Hello world'
 jst.render('Hello {{ name }}', {name: 'world'}).body
 //=> 'Hello world'
 ```
+
+## License
+
+MIT
